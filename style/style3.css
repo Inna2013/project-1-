@@ -22,15 +22,22 @@ h3 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-left: 27px;
     margin-right: 21px;
+    margin-bottom: 48px;
 }
 
 .cell {
     width: 76px;
     height: 76px;
+    display: grid;
     background: #FFFFFF;
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
-    margin-bottom: 0px;
+
+}
+
+.icon {
+    margin: 22px;
+
 }
 
 .p {
@@ -38,7 +45,6 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: #4F4F4F;
     font-style: normal;
-    line-height: 16.8px;
 }
 
 .navbar {
