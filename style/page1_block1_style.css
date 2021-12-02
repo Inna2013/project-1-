@@ -20,5 +20,72 @@ color: #4F4F4F;
     grid-column: 3/4;
 }
 #basket{
-    grid-column: 3/4;
+    grid-column: 4/4;
+}
+#jes_text{
+    width: 328px;
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: bold;
+font-size: 31.25px;
+line-height: 36px;
+color: #000000;
+}
+#jes_subtext{
+    width: 328px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+#pp_ls{
+    font-family: "Playfair Display";
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+}
+#top_text{
+    width: 186px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color:bisque;
+}
+#top_subtext{
+    width: 186px;
+    font-family:"Playfair Display";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: bisque;
+}
+#t25,#t25_3{
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    background: -webkit-linear-gradient(#D96F6E
+    , #F2D05C
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+#t25_2{ 
+font-family: Playfair Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+color: rgba(217, 111, 110, 1);
+
+
 }
