@@ -1,46 +1,4 @@
-.authors {
-    margin-left: 24px;
-    margin-bottom: 32px;
-}
-
-.authors__title {
-    color: #000000;
-    font-family: "Playfair Display";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-}
-
-.authors__skroll {
-    overflow: hidden;
-}
-
-.authors__list {
-    align-items: center;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    margin-bottom: -20px;
-    overflow-x: scroll;
-    padding-left: 0;
-    padding-bottom: 20px;
-}
-
-.authors__item {
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 16px;
-}
-
-@media only screen and (max-width: 370px) {
-    .authors__item {
-        margin-right: 16px;
-    }
-}
-
-.authors__text {
+.publications__text {
     color: #000000;
     font-family: "Montserrat";
     font-style: normal;
@@ -50,7 +8,7 @@
     text-align: center;
 }
 
-.title_arrivals {
+.title_publications {
     color: #000000;
     font-family: "Playfair Display";
     font-style: normal;
@@ -58,7 +16,6 @@
     font-size: 20px;
     line-height: 27px;
 }
-
 
 .book_name {
     color: #000000;
@@ -76,16 +33,23 @@
     font-size: 12px;
 }
 
-.arrivals {
+.book_price {
+    color: #D96F6E;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 12px;
+}
+
+.publications {
     margin-left: 24px;
     margin-bottom: 32px;
 }
 
-.arrivals_skroll {
+.publications_skroll {
     overflow: hidden;
 }
 
-.arrivals_list {
+.publications_list {
     align-items: center;
     display: flex;
     list-style: none;
