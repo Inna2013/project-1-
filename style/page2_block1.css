@@ -13,16 +13,28 @@
     grid-column: 1/2;
 }
 #search{
+    display: grid;
+    justify-self: end;
     padding-left: 2px;
      border-radius: 0px;
      grid-column: 3/4;
 
  }
  #basket{
+    display: grid;
+    justify-self: end;
      padding-left: 2px;
-     margin-right: 0%;
+     padding-right:  25px;;
      border-radius: 0px;
      
      grid-column: 4/4;
      
+ }
+ .picture{
+     display: grid;
+     width: 375px;
+     height: max-content;
+     grid-row:auto;
+     grid-column: auto;
+     justify-content: center;
  }
