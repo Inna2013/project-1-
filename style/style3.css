@@ -51,7 +51,6 @@ h3 {
 }
 
 .navbar {
-    display: grid;
 
     width: 375px;
     height: 56px;
@@ -61,28 +60,31 @@ h3 {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 10px;
+
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 0px;
     justify-items: center;
-    align-items: center;
-    padding-top: 12px;
+
 
 }
 
+
+
 .icon-nav {
     width: 22px;
-    height: 22px;
+    height: 20px;
     border: none;
-    padding-bottom: 0%;
+
 }
 
 a {
     text-decoration: none;
     color: #BBD1D9;
     font-family: 'Montserrat';
-    text-align: center;
     font-size: 10px;
 
 }
