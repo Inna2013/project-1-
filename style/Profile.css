@@ -54,3 +54,79 @@
     padding-left: 0;
     padding-bottom: 20px;
 }
+
+
+
+
+.profile_page {
+    margin-left: 24px;
+    margin-bottom: 32px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.profile_info-icon {
+    margin-left: 80px;
+    margin-bottom: 32px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.profile_info-text {
+    margin-left: 24px;
+    margin-bottom: 32px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 36px;
+    color: #000000;
+
+}
+
+.profile_info-text2 {
+    margin-left: 50px;
+    margin-bottom: 32px;
+    flex-wrap: nowrap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.subscribers_info {
+    margin-left: 78px;
+    width: 120px;
+    height: 42px;
+}
+
+.subscribers_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #4F4F4F;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.subscribers_text2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
