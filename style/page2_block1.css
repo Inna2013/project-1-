@@ -7,7 +7,7 @@
     align-content: center; 
 box-shadow: 0 4px 16px rgba(78, 55, 55, 0.15); 
 grid-template-columns: repeat(2, 1fr); 
-margin: 20px 0 42px 0;
+margin: 20px 0 16px 0;
 }
 #arrow{
     padding-left: 23.59px;
@@ -29,12 +29,12 @@ margin: 20px 0 42px 0;
      border-radius: 0px;
      
      grid-column: 4/4;
-     grid-gap: 0px;
+     
  }
  
  
  .picture{
-     padding-top: 24px;
+    
      display: grid;
      width: 375px;
      height: max-content;
@@ -46,8 +46,7 @@ margin: 20px 0 42px 0;
      margin-bottom: 0px;
  }
  .text{
-    padding-top: -10px !important;
-    margin-top: -10px;
+    
     width: 375px;
      grid-template-columns:max-content;  
      grid-template-rows: 1/7;
