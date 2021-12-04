@@ -4,9 +4,10 @@
     height: 48px;
     grid-row:1/2;
     grid-column:1/4 ;
-    align-items: center;
-    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
-    column-gap: 0%;
+    align-content: center; 
+box-shadow: 0 4px 16px rgba(78, 55, 55, 0.15); 
+grid-template-columns: repeat(2, 1fr); 
+margin: 20px 0 16px 0;
 }
 #arrow{
     padding-left: 23.59px;
@@ -15,26 +16,95 @@
 #search{
     display: grid;
     justify-self: end;
-    padding-left: 2px;
-     border-radius: 0px;
-     grid-column: 3/4;
-
- }
+    padding-right: 25px;
+    border-radius: 0px;
+    grid-column: 3/4;
+}
  #basket{
     display: grid;
     justify-self: end;
-     padding-left: 2px;
-     padding-right:  25px;;
-     border-radius: 0px;
-     
-     grid-column: 4/4;
-     
- }
+    padding-left: 2px;
+    padding-right:  25px;;
+    border-radius: 0px;
+    grid-column: 4/4;  
+}
+ 
+ 
  .picture{
-     display: grid;
-     width: 375px;
-     height: max-content;
-     grid-row:auto;
-     grid-column: auto;
-     justify-content: center;
+
+    display: grid;
+    width: 375px;
+    height: max-content;
+    grid-row:auto;
+    grid-column: auto;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ }
+ .text{
+    display: grid;
+    width: 375px;
+    grid-template-columns:auto;  
+    grid-template-rows: 1/7;
+    align-content: center;
+ }
+ #conv_fr{
+    grid-row: 1/2;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: black;
+    margin:0%;
+    
+ }
+ #s_r{
+     grid-row: 2/3;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    margin:0%;
+ }
+ #pck{
+     grid-row: 3/4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #828282;
+    margin:2px;
+
+ }
+ #price{
+     grid-row: 4/5;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+    margin: 5px;
+ }
+ #main_txt{
+     grid-row: 5/7;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #000000;
+    text-align: center;
+    margin: 5px;
+    
  }
