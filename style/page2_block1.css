@@ -17,43 +17,40 @@ margin: 20px 0 16px 0;
     display: grid;
     justify-self: end;
     padding-right: 25px;
-     border-radius: 0px;
-     grid-column: 3/4;
-
- }
+    border-radius: 0px;
+    grid-column: 3/4;
+}
  #basket{
     display: grid;
     justify-self: end;
-     padding-left: 2px;
-     padding-right:  25px;;
-     border-radius: 0px;
-     
-     grid-column: 4/4;
-     
- }
+    padding-left: 2px;
+    padding-right:  25px;;
+    border-radius: 0px;
+    grid-column: 4/4;  
+}
  
  
  .picture{
-    
-     display: grid;
-     width: 375px;
-     height: max-content;
-     grid-row:auto;
-     grid-column: auto;
-     justify-content: center;
-     filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
-     padding-bottom: 0px;
-     margin-bottom: 0px;
+
+    display: grid;
+    width: 375px;
+    height: max-content;
+    grid-row:auto;
+    grid-column: auto;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    padding-bottom: 0px;
+    margin-bottom: 0px;
  }
  .text{
-    
+    display: grid;
     width: 375px;
-     grid-template-columns:max-content;  
-     grid-template-rows: 1/7;
-     align-content: center;
-     row-gap: 0%;
+    grid-template-columns:auto;  
+    grid-template-rows: 1/7;
+    align-content: center;
  }
  #conv_fr{
+    grid-row: 1/2;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -61,9 +58,11 @@ margin: 20px 0 16px 0;
     line-height: 33px;
     text-align: center;
     color: black;
+    margin:0%;
     
  }
  #s_r{
+     grid-row: 2/3;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -71,8 +70,10 @@ margin: 20px 0 16px 0;
     line-height: 24px;
     text-align: center;
     color: black;
+    margin:0%;
  }
  #pck{
+     grid-row: 3/4;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -80,9 +81,11 @@ margin: 20px 0 16px 0;
     line-height: 140%;
     text-align: center;
     color: #828282;
+    margin:2px;
 
  }
  #price{
+     grid-row: 4/5;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -91,8 +94,10 @@ margin: 20px 0 16px 0;
     text-align: center;
     
     color: #000000;
+    margin: 5px;
  }
  #main_txt{
+     grid-row: 5/7;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -100,5 +105,6 @@ margin: 20px 0 16px 0;
     line-height: 24px;  
     color: #000000;
     text-align: center;
+    margin: 5px;
     
  }
