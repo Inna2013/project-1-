@@ -37,16 +37,22 @@ h3 {
 
 .icon {
     margin: 22px;
+    justify-items: center;
+}
 
+.cell-text {
+    display: grid;
+    justify-items: center;
 }
 
 .p {
-    display: grid;
+
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     color: #4F4F4F;
     font-style: normal;
     margin-top: 5px;
+
 
 }
 
