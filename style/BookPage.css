@@ -1,3 +1,25 @@
+.buttons {
+    display: grid;
+    align-items: center;
+    margin-top: 22px;
+    margin-left: 40px;
+}
+
+#b1 {
+    background-color: #D96F6E;
+    width: 296px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#b2 {
+    background-color: #F3A492;
+    width: 296px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
 .publications__text {
     color: #000000;
     font-family: "Montserrat";
