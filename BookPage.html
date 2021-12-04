@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,44 @@
     <link rel="stylesheet" href="style/BookPage.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <h1 id="home"></h1>
         <img id="search" src="assets\img\menu_search.png">
         <img id="basket" src="assets\img\menu_basket.png">
     </header>
+
+    <div class="">
+        <div>
+            <button>Add to Cart</button>
+        </div>
+        <div>
+            <button>Wishlist</button>
+        </div>
+        <div>
+            <p class="publisher">Publisher: Faber & Faber
+                Date Published: 1 March 2018
+                ISBN13: 9780571333134</p>
+        </div>
+        <div class="genres">
+            <p>Genres:
+            </p>
+            <div><a class="teg" href="#">Contemporary</a></div>
+            <div><a class="teg" href="#">General Fiction</a></div>
+        </div>
+        <div class="share">
+            <p>Share this book:</p>
+            <div>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+
+        </div>
+    </div>
 
 
     <div class="publications">
@@ -48,21 +81,30 @@
     </div>
 
 
-
-
-
     <nav class="navbar">
         <ul>
             <li><a class="active" href="#">
-                    <img src="/assets/img/menu_home.png" alt="home"><br> home </a> </li>
-            <li><a href="#">
-                    <img src="/assets/img/menu_browse.png" alt="browse"> <br> browse </a>
+                    <img class="icon-nav" src="/assets/img/menu_home.png" alt="home"> </a>
             </li>
             <li><a href="#">
-                    <img src="/assets/img/menu_wishlist.png" alt="wishlist"> <br> wishlist </a></li>
+                    <img class="icon-nav" src="/assets/img/menu_browse.png" alt="browse">
+
+                </a>
+            </li>
             <li><a href="#">
-                    <img src="/assets/img/menu_profile.png" alt="profile"> <br> profile </a></li>
+                    <img class="icon-nav" src="/assets/img/menu_wishlist.png" alt="wishlist">
+                </a></li>
+            <li><a href="#">
+                    <img class="icon-nav" src="/assets/img/menu_profile.png" alt="profile">
+
+                </a></li>
+            <li><a class="active" href="#">home</a></li>
+            <li><a href="#">browse</a></li>
+            <li><a href="#">wishlist </a></li>
+            <li><a href="#">profile</a></li>
+
         </ul>
     </nav>
 </body>
+
 </html>
