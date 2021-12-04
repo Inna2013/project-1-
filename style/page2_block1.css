@@ -1,0 +1,28 @@
+.header{
+    display: grid;
+    width: 375px;
+    height: 48px;
+    grid-row:1/2;
+    grid-column:1/4 ;
+    align-items: center;
+    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+    column-gap: 0%;
+}
+#arrow{
+    padding-left: 23.59px;
+    grid-column: 1/2;
+}
+#search{
+    padding-left: 2px;
+     border-radius: 0px;
+     grid-column: 3/4;
+
+ }
+ #basket{
+     padding-left: 2px;
+     margin-right: 0%;
+     border-radius: 0px;
+     
+     grid-column: 4/4;
+     
+ }
