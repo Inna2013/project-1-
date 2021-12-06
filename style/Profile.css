@@ -90,7 +90,7 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 20px;
     color: #333333;
     margin: 0;
@@ -239,4 +239,69 @@
     margin-bottom: -20px;
     padding-left: 0;
     padding-bottom: 20px;
+}
+
+/* Четвёртый блок */
+.title_wishlist {
+    color: #333;
+    display: inline;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+.book_wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    height: 345px;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    width: 375px;
+    padding: 20px;
+}
+
+
+.imgone {
+    height: 160.46px;
+    margin-bottom: 8px;
+}
+
+.imgtwo {
+    height: 138.67px;
+    margin-bottom: 8px;
+}
+
+.imgthree {
+    height: 150.9px;
+    margin-bottom: 8px;
+}
+
+.imgfour {
+    height: 157.82px;
+}
+
+.imgfive {
+    height: 160.91px;
+
+}
+
+.imgsix {
+    height: 157.32px;
+}
+
+
+.wishlist_text {
+    color: #d96f6e;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    margin-left: 140px;
+    margin-bottom: 40px;
+    text-decoration: underline;
 }
