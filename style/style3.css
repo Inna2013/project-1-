@@ -84,7 +84,7 @@ ul {
     width: 22px;
     height: 20px;
     border: none;
-
+    color: #BBD1D9;
 }
 
 a {
@@ -94,6 +94,8 @@ a {
     font-size: 10px;
 
 }
+
+
 
 .active {
     color: #53889D;
