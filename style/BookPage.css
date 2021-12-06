@@ -279,6 +279,11 @@
     line-height: 27px;
 }
 
+.book_img {
+    width: 144.15px;
+    height: 216px;
+}
+
 .book_name {
     color: #000000;
     font-family: "Playfair Display";
@@ -316,7 +321,7 @@
     align-items: center;
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 0 -10;
     margin-bottom: -20px;
     overflow-x: scroll;
     padding-left: 0;
@@ -324,7 +329,6 @@
 }
 
 .navbar {
-
     width: 375px;
     height: 56px;
     background: #FFFFFF;
