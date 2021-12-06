@@ -15,7 +15,8 @@ h3 {
 }
 
 .genres {
-    width:330px;
+
+    width: 330px;
     height: 389px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -68,23 +69,17 @@ ul {
     list-style-type: none;
     display: grid;
     padding-top: 10px;
-
-
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding-left: 0px;
     justify-items: center;
-
-
 }
-
-
 
 .icon-nav {
     width: 22px;
     height: 20px;
     border: none;
-
+    color: #BBD1D9;
 }
 
 a {
@@ -92,7 +87,6 @@ a {
     color: #BBD1D9;
     font-family: 'Montserrat';
     font-size: 10px;
-
 }
 
 .active {

@@ -5,19 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style\page1_block1_style.css">
-    <link rel="stylesheet" href="/style/style3.css">
-    <link rel="stylesheet" href="fonts.css">
+    <link rel="normalize" href="/style/Normalize.css">
     <link rel="stylesheet" href="style/BookPage.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
+
     <header class="header">
-        <h1 id="home"></h1>
+        <img id="arrow" src="assets\img\assets page 2\arrow.png">
         <img id="search" src="assets\img\menu_search.png">
         <img id="basket" src="assets\img\menu_basket.png">
+
     </header>
+    <div class="picture">
+        <img id="poster" src="assets\img\assets page 2\conv_w_friends.png">
+    </div>
+    <div class="text">
+        <h1 id="conv_fr">Conversations with Friends</h1>
+        <h2 id="s_r">Sally Rooney</h2>
+        <h3 id="pck">Paperback | 2nd Edition</h3>
+        <h2 id="price">€12.90</h2>
+        <h2 id="main_txt">A blurb about the book goes here. A few</br> sentences that are nice and easy to
+            read.</br>
+            Like
+            one
+            that’s enticing... read more</h2>
+
+    </div>
+
 
     <div class="buttons">
         <div>
@@ -31,26 +57,28 @@
                 Date Published: 1 March 2018<br>
                 ISBN13: 9780571333134</p>
         </div>
-        <div class="genres-bp">
-            <p>Genres:
-            </p>
-            <div><a class="teg" href="#">Contemporary</a></div>
-            <div><a class="teg" href="#">General Fiction</a></div>
-        </div>
-        <div class="share">
-            <p>Share this book:</p>
-            <div>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-            </div>
-
-        </div>
     </div>
+    <div class="tag">
+        <p class="h">Genres:
+        </p>
+    </div>
+    <div class="tagcloud">
 
+        <div class="teg1"><a class="cntp" href="#">Contemporary</a></div>
+        <div class="tegleft"><a class="fctn" href="#">General Fiction</a></div>
+    </div>
+    <div class="share">
+        <p class="h">Share this book:</p>
+    </div>
+    <div class="buttons2">
+        <button class="socnet"><img src="/assets/img/assets page 2/facebook.png" alt="facebook">
+        </button>
+        <button class="socnet"><img src="/assets/img/assets page 2/instagram.png" alt="instagram"></button>
+        <button class="socnet"><img src="/assets/img/assets page 2/twitter.png" alt="twitter"></button>
+        <button class="socnet"><img src="/assets/img/assets page 2/email.png" alt="mail"></button>
+        <button class="socnet"><img src="/assets/img/assets page 2/link.png" alt=" link"></button>
 
+    </div>
     <div class="publications">
         <h3 class="title_publications">Similar Publications:</h3>
         <div class="publications_skroll">
@@ -58,7 +86,7 @@
 
                 <li class="book_items">
                     <img class="book_img" src="assets/img/assets page 2/prom_young_women.png" alt="Caroline O’Donoghue">
-                    <p class="book_name">Promising Young Women</p>
+                    <p class="book_name">Promising Young<br> Women</p>
                     <p class="book_authors">Caroline O’Donoghue</p>
                     <p class="book_price">€9.80</p>
                 </li>
@@ -98,7 +126,7 @@
                     <img class="icon-nav" src="/assets/img/menu_profile.png" alt="profile">
 
                 </a></li>
-            <li><a class="active" href="#">home</a></li>
+            <li><a class="active " href="#">home</a></li>
             <li><a href="#">browse</a></li>
             <li><a href="#">wishlist </a></li>
             <li><a href="#">profile</a></li>
