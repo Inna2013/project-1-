@@ -1,3 +1,123 @@
+.header {
+    display: grid;
+    width: 375px;
+    height: 48px;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    align-content: center;
+    box-shadow: 0 4px 16px rgba(78, 55, 55, 0.15);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 0 16px 0;
+}
+
+#arrow {
+    padding-left: 23.59px;
+    grid-column: 1/2;
+}
+
+#search {
+    display: grid;
+    justify-self: end;
+    padding-right: 25px;
+    border-radius: 0px;
+    grid-column: 3/4;
+}
+
+#basket {
+    display: grid;
+    justify-self: end;
+    padding-left: 2px;
+    padding-right: 25px;
+    border-radius: 0px;
+    grid-column: 4/4;
+}
+
+
+.picture {
+
+    display: grid;
+    width: 375px;
+    height: max-content;
+    grid-row: auto;
+    grid-column: auto;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.text {
+    display: grid;
+    width: 375px;
+    grid-template-columns: auto;
+    grid-template-rows: 1/7;
+    align-content: center;
+}
+
+#conv_fr {
+    grid-row: 1/2;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: black;
+    margin: 0%;
+
+}
+
+#s_r {
+    grid-row: 2/3;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    margin: 0%;
+}
+
+#pck {
+    grid-row: 3/4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #828282;
+    margin: 2px;
+
+}
+
+#price {
+    grid-row: 4/5;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+    margin: 5px;
+}
+
+#main_txt {
+    grid-row: 5/7;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin: 5px;
+
+}
+
 .buttons {
     display: grid;
     align-items: center;
@@ -28,7 +148,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-
 }
 
 .publisher {
@@ -45,13 +164,11 @@
     color: #828282;
 }
 
-
-
 .tag {
+    margin-top: 24px;
     width: 64px;
     height: 20px;
     margin-left: 115px;
-
 }
 
 .h {
@@ -65,7 +182,6 @@
 }
 
 .tagcloud {
-
     margin-top: 20px;
     margin-left: 17px;
     width: 259px;
@@ -114,8 +230,24 @@
 }
 
 .share {
+
     margin-top: 32px;
+    margin-left: 76px;
+    width: 136px;
+    height: 20px;
+
 }
+
+.buttons2 {
+    margin-top: 20px;
+    width: 265px;
+    height: 40px;
+    left: 11px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
 
 .publications__text {
     color: #000000;
@@ -177,4 +309,42 @@
     overflow-x: scroll;
     padding-left: 0;
     padding-bottom: 20px;
+}
+
+.navbar {
+
+    width: 375px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 0px;
+    justify-items: center;
+}
+
+.icon-nav {
+    width: 22px;
+    height: 20px;
+    border: none;
+    color: #BBD1D9;
+}
+
+a {
+    text-decoration: none;
+    color: #BBD1D9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.active {
+    color: #53889D;
 }

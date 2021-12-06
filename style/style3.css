@@ -15,6 +15,7 @@ h3 {
 }
 
 .genres {
+
     width: 330px;
     height: 389px;
     display: grid;
@@ -68,17 +69,11 @@ ul {
     list-style-type: none;
     display: grid;
     padding-top: 10px;
-
-
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding-left: 0px;
     justify-items: center;
-
-
 }
-
-
 
 .icon-nav {
     width: 22px;
@@ -92,10 +87,7 @@ a {
     color: #BBD1D9;
     font-family: 'Montserrat';
     font-size: 10px;
-
 }
-
-
 
 .active {
     color: #53889D;
