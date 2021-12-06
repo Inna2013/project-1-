@@ -1,3 +1,192 @@
+.profile_page {
+    margin: 40px 30px 40px 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile_info-icon {
+    margin-left: 80px;
+    margin-bottom: 32px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.profile_info-text {
+    justify-content: center;
+    margin-left: 30px;
+    flex-wrap: nowrap;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 36px;
+    color: #000000;
+
+}
+
+.profile_info-text2 {
+    margin-left: 60px;
+    margin-bottom: 32px;
+    flex-wrap: nowrap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.subscribers_info {
+    margin-right: 60px;
+    width: 50px;
+    height: 42px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 361px;
+}
+
+.subscribers_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #4F4F4F;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.subscribers_text2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Второй блок */
+
+
+.favorite_genres {
+    margin: 0 52px 48px 24px;
+}
+
+.favorite_genres_main {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 16px;
+
+}
+
+.favorite_genres_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 299px;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.favorite_genres_list_text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.favorite_genres_name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.one {
+    width: 79px;
+    height: 24px;
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+}
+
+.two {
+    width: 81px;
+    height: 24px;
+    background: linear-gradient(90deg, #F3A492 0%, #D96F6E 100%), #C4C4C4;
+    border-radius: 8px;
+}
+
+.three {
+    width: 123px;
+    height: 24px;
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+}
+
+.four {
+    width: 149px;
+    height: 24px;
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+
+}
+
+.five {
+    width: 87px;
+    height: 24px;
+    background: linear-gradient(90deg, #BBD1D9 0%, #F2D05C 92.86%);
+    border-radius: 8px;
+}
+
+.six {
+    width: 173px;
+    height: 24px;
+    background: linear-gradient(90deg, #D96F6E 0%, #F2D05C 100%);
+    border-radius: 8px;
+
+}
+
+.seven {
+    width: 102px;
+    height: 24px;
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+
+}
+
+
+
+/*Третий блок*/
+
 .purchased__text {
     color: #000000;
     font-family: "Montserrat";
@@ -7,6 +196,8 @@
     line-height: 140%;
     text-align: center;
 }
+
+
 
 .title_purchased {
     color: #000000;
@@ -40,93 +231,77 @@
     margin-bottom: 32px;
 }
 
-.purchased_skroll {
-    overflow: hidden;
-}
-
 .purchased_list {
     align-items: center;
     display: flex;
     list-style: none;
     margin: 0;
     margin-bottom: -20px;
-    overflow-x: scroll;
     padding-left: 0;
     padding-bottom: 20px;
 }
 
-
-
-
-.profile_page {
-    margin-left: 24px;
-    margin-bottom: 32px;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 20px;
-    margin: 10px;
-}
-
-.profile_info-icon {
-    margin-left: 80px;
-    margin-bottom: 32px;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-
-.profile_info-text {
-    margin-left: 24px;
-    margin-bottom: 32px;
-    justify-content: center;
-    flex-wrap: nowrap;
-    font-family: "Playfair Display";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 31.25px;
-    line-height: 36px;
-    color: #000000;
-
-}
-
-.profile_info-text2 {
-    margin-left: 50px;
-    margin-bottom: 32px;
-    flex-wrap: nowrap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-}
-
-.subscribers_info {
-    margin-left: 78px;
-    width: 120px;
-    height: 42px;
-}
-
-.subscribers_text {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    color: #4F4F4F;
-    margin: 0;
-    margin-bottom: 8px;
-}
-
-.subscribers_text2 {
+/* Четвёртый блок */
+.title_wishlist {
+    color: #333;
+    display: inline;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
-    margin: 0;
-    padding: 0;
+    line-height: 20px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+.book_wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    height: 345px;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    width: 375px;
+    padding: 20px;
+}
+
+
+.imgone {
+    height: 160.46px;
+    margin-bottom: 8px;
+}
+
+.imgtwo {
+    height: 138.67px;
+    margin-bottom: 8px;
+}
+
+.imgthree {
+    height: 150.9px;
+    margin-bottom: 8px;
+}
+
+.imgfour {
+    height: 157.82px;
+}
+
+.imgfive {
+    height: 160.91px;
+
+}
+
+.imgsix {
+    height: 157.32px;
+}
+
+
+.wishlist_text {
+    color: #d96f6e;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.8px;
+    margin-left: 140px;
+    margin-bottom: 40px;
+    text-decoration: underline;
 }
